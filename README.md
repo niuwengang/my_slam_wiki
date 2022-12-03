@@ -1,7 +1,7 @@
 # slam_classical_algorithm
 SLAM经典方法汇总及复现
 + 前端配准
-icp    
+icp       
 pl icp    
 G icp    
 ndt     

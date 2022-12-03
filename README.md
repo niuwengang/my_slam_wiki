@@ -12,7 +12,7 @@ scan context
 
 
 
-+ 优化方法
++ 优化方法  
 手写高斯牛顿
 ceres  
 gtsam   

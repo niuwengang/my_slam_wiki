@@ -12,14 +12,15 @@ scan context
 iris 描述子
 
 
-+ 参数估计   
-RANSAC
-手写高斯牛顿
++ 优化器
 ceres  
 gtsam   
 g2o
 
 
++ 参数拟合  
+RANSAC  
+手写高斯牛顿  
 
 + 滤波
 kf  

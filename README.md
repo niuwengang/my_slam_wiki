@@ -9,12 +9,11 @@ ndt
 
 + 回环检测  
 scan context
+iris 描述子
 
 
-+ 模型估计  
++ 数据估计
 RANSAC
-
-+ 优化方法  
 手写高斯牛顿
 ceres  
 gtsam   
@@ -22,9 +21,13 @@ g2o
 
 
 
-+ 滤波  
++ 滤波
 kf  
 ekf  
-eskf  
+eskf
+
+
+
+
 
 

@@ -11,16 +11,20 @@ ndt
 scan context
 
 
++ 模型估计  
+RANSAC
 
 + 优化方法  
 手写高斯牛顿
 ceres  
 gtsam   
-g2o  
+g2o
+
 
 
 + 滤波  
 kf  
 ekf  
 eskf  
+
 

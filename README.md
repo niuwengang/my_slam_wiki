@@ -12,7 +12,7 @@ scan context
 iris 描述子
 
 
-+ 数据估计
++ 参数估计   
 RANSAC
 手写高斯牛顿
 ceres  

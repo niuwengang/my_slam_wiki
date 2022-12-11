@@ -27,7 +27,7 @@
 ### 2.1 GTSAM <span id="2.1"></span>
 GTSAM官网 https://gtsam.org  
 官网提供了简洁且易懂的教程
-
+根据官网教程，写了个[gtsam_demo](./gtsam_demo.cpp)简单模拟lio-sam后端优化逻辑   
 
 ### 2.2 G2O <span id="2.2"></span> 
 

@@ -21,5 +21,5 @@ include(cmake/gtsam.cmake)
 
 
 # #数据预处理节点
-add_executable(main main.cpp ${ALL_SRCS} )
-target_link_libraries(main  ${THIRD_PART_LIBRARIES})
+add_executable(demo gtsam_demo.cpp ${ALL_SRCS} )
+target_link_libraries(demo  ${THIRD_PART_LIBRARIES})

@@ -11,6 +11,7 @@ add_definitions(-std=c++14)
 #第三方库配置
 set(THIRD_PART_LIBRARIES "")
 include(cmake/gtsam.cmake)
+include(cmake/eigen.cmake)
 
 # include(cmake/pcl.cmake)
 # include(cmake/geographicLib.cmake)
@@ -19,7 +20,10 @@ include(cmake/gtsam.cmake)
 # include(cmake/g2o.cmake)
 
 
+set(MY_LIBRARIES "./lib/gtsam_lib.cpp")
+
+
 
 # #数据预处理节点
-add_executable(demo gtsam_demo.cpp ${ALL_SRCS} )
-target_link_libraries(demo  ${THIRD_PART_LIBRARIES})
+add_executable(demo gtsam_demo.cpp ${MY_LIBRARIES} )
+target_link_libraries(demo  ${THIRD_PART_LIBRARIES} )

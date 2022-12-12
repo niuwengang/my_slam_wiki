@@ -25,5 +25,5 @@ set(MY_LIBRARIES "./lib/gtsam_lib.cpp")
 
 
 # #数据预处理节点
-add_executable(demo gtsam_demo.cpp ${MY_LIBRARIES} )
+add_executable(demo gtsam_demo.cpp  ${MY_LIBRARIES}  )#
 target_link_libraries(demo  ${THIRD_PART_LIBRARIES} )

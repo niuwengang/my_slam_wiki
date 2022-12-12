@@ -26,8 +26,9 @@
 ## 2. 优化库 <span id="2"></span>
 ### 2.1 GTSAM <span id="2.1"></span>
 GTSAM官网 https://gtsam.org  
-官网提供了简洁且易懂的教程
-根据官网教程，写了个[gtsam_demo](./gtsam_demo.cpp)简单模拟lio-sam后端优化逻辑   
+官网提供了简洁且易懂的教程 ,相比ceres g2o,gtsam 用法简单、更贴近slam定制、官方文档也更详细些 
+
+这里写了个[gtsam_demo](./gtsam_demo.cpp)简单模拟下lio-sam后端优化逻辑   
 
 ### 2.2 G2O <span id="2.2"></span> 
 

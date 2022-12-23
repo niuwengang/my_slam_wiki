@@ -11,7 +11,10 @@
 └─[1.2 NDT](#1.2)  
  [2 优化库](#2)     
 ├─[2.1 GTSAM](#2.1)  
-└─[2.2 G2O](#2.2)
+└─[2.2 G2O](#2.2)  
+ [3 回环检测](#3)     
+├─[3.1 ScanContext](#3.1)  
+└─[3.2 BoW3D](#3.2)
 
 
 ## 1. 点云配准 <span id="1"></span>
@@ -32,6 +35,9 @@ GTSAM官网 https://gtsam.org
 
 ### 2.2 G2O <span id="2.2"></span> 
 
+## 3. 回环检测 <span id="3"></span>
+### 3.1 ScanContext <span id="3.1"></span>
+### 3.2 BoW3D <span id="3.2"></span>
 
 
 
